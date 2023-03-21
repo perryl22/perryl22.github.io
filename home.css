@@ -1,36 +1,44 @@
 /* HEADER */
 header {
     display: grid;
-    grid-template-columns: .8fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    background-color: #dcc4b6;
-    height: 170px;
+    background-color: #dfcbbd;
+    height: 130px;
     width: 100%;
+    border-top: 5px #000000;
+
 }
 
 /* Tiny profile pic */
 .header img {
+    grid-column: 1/2;
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    align-items: center;
-    margin-top: 14px;
+    align-items: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 40px;
 }
 
 /* Lillie Perry */
-.header h2 {
-    grid-column: 1/2;
-    text-align: center;
-    color: #3a200e
+header h2 {
+    grid-column: 2/3;
+    color: #3a200e;
 }
+
+/* Hover Effect */
+header a:hover{
+    background-color: white;
+    color: #4a634b;
+    }
 
 /* Home */
 header a {
     text-align: center;
-    grid-column: 2/3;
+    grid-column: 3/4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +50,7 @@ header a {
 /* About Me */
 header .about-me {
     text-align: center;
-    grid-column: 3/4;
+    grid-column: 4/5;
     color: #3a200e;
     display: flex;
     justify-content: center;
@@ -53,7 +61,7 @@ header .about-me {
 /* Contact Me */
 header .contact-me {
     text-align: center;
-    grid-column: 4/5;
+    grid-column: 5/6;
     color: #3a200e;
     display: flex;
     justify-content: center;
@@ -85,7 +93,7 @@ body {
     grid-column: 2/3;
     grid-row: 1/1;
     margin-bottom: 100px;
-    margin-top: 70px;
+    margin-top: 170px;
     color: #4a634b;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -95,7 +103,7 @@ body {
     font-size: x-large;
     grid-column: 2/3;
     grid-row: 1/1;
-    margin-top: 170px;
+    margin-top: 270px;
     color: #4a634b;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -106,7 +114,7 @@ body {
     color: #4a634b;
     grid-column: 2/3;
     grid-row: 1/1;
-    margin-top: 250px;
+    margin-top: 350px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 2;
     margin-left: 125px;
@@ -116,24 +124,34 @@ body {
 
 
 
-
 /* FOOTER */
 footer {
-    background-color: #dcc4b6;
+    background-color: #dfcbbd;
     font-size: larger;
     padding: 25px 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #3a200e
-    
-    
+    color: #3a200e;
+}
+
+a {
+    color: #000000;
 }
 
 .icon {
-    height: 60px;
-    width: 60px;
-    padding: 10px;
-    
+    height: 55px;
+    width: 55px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px gray;
+}
+
+.icon:hover {
+    opacity: .8;
+    transform: scale(1.1);
+    border-radius: 20px;
 }
 
