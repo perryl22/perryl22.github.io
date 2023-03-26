@@ -1,0 +1,24 @@
+/* HEADER */
+header {
+    display: grid;
+    grid-template-columns: .7fr 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #dfcbbd;
+    height: 130px;
+    width: 100%;
+    border-top: 5px #000000;
+
+}
+
+/* Tiny profile pic */
+.header img {
+    grid-column: 1/2;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    align-items: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: 40px;
+}
