@@ -1,7 +1,7 @@
 /* HEADER */
 header {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+    grid-template-columns: .7fr 2fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     background-color: #dfcbbd;
     height: 130px;
@@ -25,8 +25,13 @@ header {
 
 /* Lillie Perry */
 header h2 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 12000;
     grid-column: 2/3;
     color: #3a200e;
+    text-align: left;
+    margin-top: 45px;
+    font-size: 47px;
 }
 
 /* Hover Effect */
