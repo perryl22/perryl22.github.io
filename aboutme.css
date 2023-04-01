@@ -1,13 +1,12 @@
 /* HEADER */
 header {
     display: grid;
-    grid-template-columns: .7fr 2fr 1fr 1fr 1fr;
+    grid-template-columns: .75fr 2.25fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     background-color: #dfcbbd;
     height: 130px;
     width: 100%;
     border-top: 5px #000000;
-
 }
 
 /* Tiny profile pic */
@@ -16,7 +15,6 @@ header {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    align-items: left;
     margin-top: 15px;
     margin-bottom: 15px;
     display: block;
@@ -26,7 +24,6 @@ header {
 /* Lillie Perry */
 header h2 {
     font-family: 'Great Vibes', cursive;
-    font-weight: 12000;
     grid-column: 2/3;
     color: #3a200e;
     text-align: left;
@@ -168,7 +165,7 @@ body {
     font-size: xx-large;
     text-align: center;
     background-color: white;
-    margin-top: 100px;
+    margin-top: 110px;
 }
 
 .hobbies p {
@@ -177,7 +174,7 @@ body {
     font-size: x-large;
     text-align: center;
     vertical-align: middle;
-    margin-top: 200px;
+    margin-top: 190px;
     margin-left: 50px;
     margin-right: 50px;
 }

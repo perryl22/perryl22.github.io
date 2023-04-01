@@ -1,12 +1,12 @@
 /* HEADER */
 header {
-    display: grid;
-    grid-template-columns: .7fr 2fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    background-color: #dfcbbd;
-    height: 130px;
-    width: 100%;
-    border-top: 5px #000000;
+  display: grid;
+  grid-template-columns: .75fr 2.25fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  background-color: #dfcbbd;
+  height: 130px;
+  width: 100%;
+  border-top: 5px #000000;
 
 }
 
@@ -16,7 +16,6 @@ header {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    align-items: left;
     margin-top: 15px;
     margin-bottom: 15px;
     display: block;
@@ -26,7 +25,6 @@ header {
 /* Lillie Perry */
 header h2 {
     font-family: 'Great Vibes', cursive;
-    font-weight: 12000;
     grid-column: 2/3;
     color: #3a200e;
     text-align: left;
@@ -76,10 +74,16 @@ header .contact-me {
 
 
 /* BODY */
-
+body {
+    margin: 0;
+}
 #section {
     height: 200px;
     margin-bottom: 100px;
+}
+
+.height {
+  height: 150px;
 }
 
     form {
@@ -179,32 +183,32 @@ header .contact-me {
 
 /* FOOTER */
 footer {
-    background-color: #dfcbbd;
-    font-size: larger;
-    padding: 25px 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: #3a200e;
+  background-color: #dfcbbd;
+  font-size: larger;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #3a200e;
 }
 
 a {
-    color: #000000;
+  color: #000000;
 }
 
 .icon {
-    height: 55px;
-    width: 55px;
-    padding: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 0px gray;
+  height: 55px;
+  width: 55px;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 0px gray;
 }
 
 .icon:hover {
-    opacity: .8;
-    transform: scale(1.1);
-    border-radius: 20px;
+  opacity: .8;
+  transform: scale(1.1);
+  border-radius: 20px;
 }
 
